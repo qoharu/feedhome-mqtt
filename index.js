@@ -1,7 +1,7 @@
 var mosca = require('mosca')
 
 var moscaSettings = {
-  port: 1883,
+  port: 80,
   persistence: {
     factory: mosca.persistence.Memory
   }
