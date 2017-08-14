@@ -1,5 +1,5 @@
 var mqtt = require('mqtt')
-var client  = mqtt.connect('mqtt://feedhome-mqtt.herokuapp.com:1883')
+var client  = mqtt.connect('mqtt://localhost:80')
 
 client.on('connect', function () {
   client.subscribe('presence')
